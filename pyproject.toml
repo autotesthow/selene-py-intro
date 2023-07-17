@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "selene-py-intro"
+version = "0.1.0"
+description = ""
+authors = ["yashaka <yashaka@gmail.com>"]
+readme = "README.md"
+packages = [{include = "selene_py_intro"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selene = {version = "^2.0.0rc2", allow-prereleases = true}
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
